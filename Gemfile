@@ -45,7 +45,7 @@ group :development do
   # Guard is a command line tool to easily handle events on file system modifications.
   gem 'guard', '~> 2.17'
   # Guard::LiveReload automatically reloads your browser when 'view' files are modified.
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-livereload', '~> 2.5', require: false
   # Get better error messages
   gem "better_errors"
   gem "binding_of_caller"
@@ -66,5 +66,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Simple form
 gem 'simple_form'
 
-# Bulma css
+# A modern CSS framework based on Flexbox
 gem 'bulma-rails', '~> 0.9.1'
